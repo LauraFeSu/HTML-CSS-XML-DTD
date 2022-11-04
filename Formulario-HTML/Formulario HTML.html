@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Forma de pago</h2>
+    <p>Campos obrigatorios estan marcados con *</p>
+    <h2> Información de contacto</h2>
+    <fieldset>
+        <legeng>Titulo</legeng>
+    <ul>
+        <li>
+            <label for="titulo_1">
+                <input type="radio" id="titulo_1" name="titulo" value="K" />
+                Rey
+            </label>
+        </li>
+        <li>
+            <label for="titulo_2">
+                <input type="radio" id="titulo_2" name="titulo" value="Q" />
+                Reina
+            </label>
+        </li>
+        <li>
+            <label for="titulo_3">
+                <input type="radio" id="titulo_3" name="titulo" value="J" />
+                Caballo
+            </label>
+        </li>
+    </ul>
+    </fieldset>
+    <p>
+        <label for="Nombre">
+            <span>Nombre:</span>
+            <span>*</span>
+        </label>
+        <br>
+        <input type="text" id="Nombre" name="Nombre">
+    </p>
+    <p>
+        <label for="Correo">
+            <span>E-mail</span>
+            <span>*</span>
+        </label>
+        <br>
+        <input type="text" id="Correo" name="Correo">
+    </p>
+    <p>
+        <label for="Contraseña">
+            <span>Contraseña</span>
+            <span>*</span>
+        </label>
+        <br>
+        <input type="password" id="Contraseña" name="Contraseña">
+    </p>
+    <button>Validar pago</button>
+</body>
+</html>
