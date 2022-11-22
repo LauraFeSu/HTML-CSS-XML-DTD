@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+}
+</style>
+</head>
+<body>
+
+<h2>Propiedade border-width</h2>
+<p>Para especificar o ancho dos catro bordes</p>
+
+<p class="one">Texto1</p>
+<p class="two">Texto2</p>
+<p class="three">Texto3</p>
+<p class="four">Texto4</p>
+<p class="five">Texto5</p>
+<p class="six">Texto6</p>
+
+
+</body>
+</html>

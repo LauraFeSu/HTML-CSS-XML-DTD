@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			<div>border: 1px solid black,background-color: green,padding-top: 100px,padding-right: 50px,padding-bottom: 20px,padding-left: 170px;</div>
+		</style>
+		
+	</head>
+	<body>
+		<h2>Propiedades de padding</h2>
+		<div>Este elemento div ten un padding superior de 100px, padding dereito de 50px, padding inferior de 20px, e pading esquerdo de 170px.</div>
+	</body>
+</html>
